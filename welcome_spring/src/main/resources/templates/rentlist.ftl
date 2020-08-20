@@ -22,10 +22,10 @@
                 <td>${item.client}</td>
 <#--                <td>${item.createdAt}</td>
                 <td>${item.updatedAt}</td>-->
-                <td><a href="http://https://welcomespring.herokuapp.com/web/rent/update/${item.id}">
+                <td><a href="https://welcomespring.herokuapp.com/web/rent/update/${item.id}">
                         <input type="button" value="update" class="btn-primary"></a>
                 </td>
-                <td><a href="http://https://welcomespring.herokuapp.com/web/rent/delete/${item.id}">
+                <td><a href="https://welcomespring.herokuapp.com/web/rent/delete/${item.id}">
                         <input type="button" value="delete" class="btn-danger">
                     </a>
             </tr>
