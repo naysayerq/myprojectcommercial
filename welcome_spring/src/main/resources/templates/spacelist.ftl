@@ -22,10 +22,10 @@
                 <td>${item.name}</td>
                 <td>${item.area}</td>
               <#--  <td>${item.rentPricePerDay}</td>-->
-                <td><a href="http://localhost:8082/web/space/update/${item.id}">
+                <td><a href="http://https://welcomespring.herokuapp.com/web/space/update/${item.id}">
                         <input type="button" value="update" class="btn-primary"></a>
                 </td>
-                <td><a href="http://localhost:8082/web/space/delete/${item.id}">
+                <td><a href="http://https://welcomespring.herokuapp.com/web/space/delete/${item.id}">
                         <input type="button" value="delete" class="btn-danger">
                     </a>
             </tr>
