@@ -21,10 +21,10 @@
                 <td>${item.name}</td>
                 <td>${item.description}</td>
          <#--       <td>${item.address}</td>-->
-                <td><a href="http://https://welcomespring.herokuapp.com/web/client/update/${item.id}">
+                <td><a href="https://welcomespring.herokuapp.com/web/client/update/${item.id}">
                         <input type="button" value="update" class="btn-primary"></a>
                 </td>
-                <td><a href="http://https://welcomespring.herokuapp.com/web/client/delete/${item.id}">
+                <td><a href="https://welcomespring.herokuapp.com/web/client/delete/${item.id}">
                         <input type="button" value="delete" class="btn-danger">
                     </a>
             </tr>
